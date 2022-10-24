@@ -12,7 +12,7 @@ git rebase -i HEAD~2
 ![image](https://user-images.githubusercontent.com/64983176/197629430-09fba8a7-9cdd-4a95-9ccf-b1b10c99800d.png)
 ![image](https://user-images.githubusercontent.com/64983176/197629446-eebfd219-d99f-418d-afef-d78147787bb5.png)
 ### Далее делаем `cherry-pick` и удаляем ветку `ci`
-![image](https://user-images.githubusercontent.com/64983176/197629459-83e40026-5f06-454b-9984-44de67e8d4e7.png)
+![image](https://user-images.githubusercontent.com/64983176/197629457-8481f9bf-7655-4011-8494-3c92380e2d38.png)
 
 ### 3.  Используем `reflog`:
 ```
@@ -20,7 +20,7 @@ git reflog
 git checkout aca3abb
 git branch old-master
 ```
-![image](https://user-images.githubusercontent.com/64983176/197629457-8481f9bf-7655-4011-8494-3c92380e2d38.png)
+![image](https://user-images.githubusercontent.com/64983176/197629459-83e40026-5f06-454b-9984-44de67e8d4e7.png)
 
 ### 4.  Используем `git blame` и находим 32 строчку:
 ```
