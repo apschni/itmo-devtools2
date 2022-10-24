@@ -60,3 +60,5 @@ git merge feature
 ![image](https://user-images.githubusercontent.com/64983176/197629515-28cb37eb-eba3-42aa-bf33-3d1a044b5064.png)
 
 ### 10. Размер репозитория был уменьшен на предыдущем шаге
+
+### Для поэтапной фиксации использовались команды `git add -p` и `git commit -m`
