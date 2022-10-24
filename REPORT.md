@@ -30,3 +30,10 @@ git blame prisma/seed.ts
 
 ### 5. Используем `git bisect`, помечая ребочие коммиты как `bisect bad`, нерабочие - `bisect bad`, пока не найдем `first bad commit`.
 ![image](https://user-images.githubusercontent.com/64983176/197629479-c291b1b5-73a1-4601-9768-2737676d9fa8.png)
+
+### 6. С помощью `filter-branch` удалим `.env` из всех коммитов, затем добавим в `.gitgnore`:
+```
+git filter-branch --tree-filter "rm -f .env" -- --all
+echo .env >> .gitignore
+```
+![image](https://user-images.githubusercontent.com/64983176/197629492-fb10cdbd-1c0a-4c77-956b-f186390ea799.png)
