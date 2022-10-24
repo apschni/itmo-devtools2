@@ -37,3 +37,7 @@ git filter-branch --tree-filter "rm -f .env" -- --all
 echo .env >> .gitignore
 ```
 ![image](https://user-images.githubusercontent.com/64983176/197629492-fb10cdbd-1c0a-4c77-956b-f186390ea799.png)
+
+### 7. Изменим автора коммитов:
+![image](https://user-images.githubusercontent.com/64983176/197629498-0ceef320-45a0-4975-95f3-f7153151e5c5.png)
+![image](https://user-images.githubusercontent.com/64983176/197629505-d51ebe7a-4182-4ada-bd3c-a2f5457b98b2.png)
