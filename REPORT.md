@@ -41,3 +41,17 @@ echo .env >> .gitignore
 ### 7. Изменим автора коммитов:
 ![image](https://user-images.githubusercontent.com/64983176/197629498-0ceef320-45a0-4975-95f3-f7153151e5c5.png)
 ![image](https://user-images.githubusercontent.com/64983176/197629505-d51ebe7a-4182-4ada-bd3c-a2f5457b98b2.png)
+
+### 8. Используя запоминание разрешений конфликтов вмерджим `feature` в `master`, разрешив конфликт при слиянии. Откатим слияние, внесем изменение в файл `README.md` и снова влейте ветку `feature` в `master`
+```
+git checkout master
+git config rerere.enabled true
+git merge feature
+```
+
+```
+git add *file-name*
+git commit --no-edit
+git reset --hard HEAD~1
+git merge feature
+```
