@@ -27,3 +27,6 @@ git branch old-master
 git blame prisma/seed.ts
 ```
 ![image](https://user-images.githubusercontent.com/64983176/197629469-f3a40f9f-8ae2-440b-9a81-8c34fee2da2d.png)
+
+### 5. Используем `git bisect`, помечая ребочие коммиты как `bisect bad`, нерабочие - `bisect bad`, пока не найдем `first bad commit`.
+![image](https://user-images.githubusercontent.com/64983176/197629479-c291b1b5-73a1-4601-9768-2737676d9fa8.png)
