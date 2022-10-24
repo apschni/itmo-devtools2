@@ -21,3 +21,9 @@ git checkout aca3abb
 git branch old-master
 ```
 ![image](https://user-images.githubusercontent.com/64983176/197629457-8481f9bf-7655-4011-8494-3c92380e2d38.png)
+
+### 4.  Используем `git blame` и находим 32 строчку:
+```
+git blame prisma/seed.ts
+```
+![image](https://user-images.githubusercontent.com/64983176/197629469-f3a40f9f-8ae2-440b-9a81-8c34fee2da2d.png)
